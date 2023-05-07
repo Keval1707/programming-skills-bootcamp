@@ -15,19 +15,20 @@ public class Main {
         for (Book book : catalog.getAllBooks()) {
             System.out.println(book);
         }
+//        catalog.updateBook(book1,"The Great Gatsby", "keval patel", "Fiction",true);
+//
+//        System.out.println("\nRemoving book " + book2.getTitle() + "...");
+//        catalog.removeBook(book2);
+//
+//        System.out.println("\nAll books after removal:");
+//        for (Book book : catalog.getAllBooks()) {
+//            System.out.println(book);
+//        }
 
-        System.out.println("\nRemoving book " + book2.getTitle() + "...");
-        catalog.removeBook(book2);
-
-        System.out.println("\nAll books after removal:");
-        for (Book book : catalog.getAllBooks()) {
-            System.out.println(book);
-        }
-
-        System.out.println("\nSearching for books with keyword \"The\":");
-        for (Book book : catalog.searchBooks("The")) {
-            System.out.println(book);
-        }
+//        System.out.println("\nSearching for books with keyword \"The\":");
+//        for (Book book : catalog.searchBooks("The")) {
+//            System.out.println(book);
+//        }
 
         Borrower borrower1 = new Borrower("John Smith");
         Borrower borrower2 = new Borrower("Jane Doe");
