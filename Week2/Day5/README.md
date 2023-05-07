@@ -4,6 +4,11 @@
 
 The Library Management System is a software application that is designed to manage a library's catalog. It helps in keeping track of books, their availability, and borrowers. The Library Management System is designed to help librarians to manage their library easily and efficiently.
 
+## Technologies
+* Java
+* MySQL
+* JDBC
+
 ## Features
 
 The Library Management System provides the following features:
